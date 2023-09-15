@@ -37,9 +37,15 @@
           <li>Make sure we are on the feature/add-html branch from our command line.
             We have to add the changed files in our working directory to the staging area of Git.
             Use the following command in your terminal to stage your changes:git add -A</li>
-          <li>git add</li>
-          <li>git push</li>
-          <li>git pull</li>
+          <li>Now that all of our changes have been staged, we can commit them to our repository.
+              Use the following command in your terminal to commit the changes:
+              git commit -m "added code to HTML file"</li>
+          <li>Next, let's make sure that our current branch is up to date before opening a pull request.
+              We need to sync our local branch with the remote branch in GitHub. This is especially important in a team environment in case a team member has added a new feature to the project.
+              The process of syncing and merging code into the GitHub repo is how the project gets continually updated with more features and content from different team members. Use the following command in your terminal to pull in the base branch:
+              git pull origin main</li>
+          <li>Let's push up all of our changes by using the following command:
+              git push origin feature/add-html/li>
         </ul>
       </section>
       
